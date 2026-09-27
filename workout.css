@@ -104,8 +104,6 @@ font-size: 16px;
 }
 h2{
     font-size: 22px;
-}footer{
-    display: none;
 }
 
 @media(max-width:427px){
@@ -222,6 +220,8 @@ font-size: 12px;
 }
 .i{
     display: none;
+}footer{
+    font-size: 12px;
 }
 .foot{
     align-items: center;
@@ -230,10 +230,11 @@ font-size: 12px;
     border: 1px solid black;
     border-radius:20px ;
     margin:10px;
-    font-size: 12px;
+    
+    background-color: #154b26;
 }
 .foot a{
-    color: #154b26;
-}
+color: white;
 
+}
 }
