@@ -441,9 +441,12 @@ span{
     border-radius:20px ;
     margin:10px;
     
+    background-color: #154b26;
 }
 .foot a{
-    color: #0d0d0d;
+color: white;
+
+
 }.center {
     background-color: rgba(228, 245, 227, 0.92);
     border-radius: 20px;
