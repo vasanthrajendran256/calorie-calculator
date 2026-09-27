@@ -1,0 +1,292 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("img/bg.png");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      font-family: 'Poppins', sans-serif;
+      color: #344E41;
+}
+header{
+    margin: 10px;
+    
+}nav{
+    padding: 5px; 
+    padding-left: 30px;  
+     padding-right: 30px; 
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B4332;
+   color: #FFFFFF;
+}
+.head{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     
+}.navi{
+    background: #1B4332;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
+ 
+}
+a{
+   
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 25px;
+}
+.corner{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 30px;
+   
+}.food{
+    text-align: center;
+    background-color:#FFFFFF;
+   padding: 30px;
+   border-radius: 10px;
+}
+   .food:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 30px;
+   border-radius: 10px;
+}.servings{
+    text-align: center;
+    background-color:#FFFFFF;
+     padding: 30px;
+     border-radius: 10px;
+}
+ .servings:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 30px;
+   border-radius: 10px;
+}
+.calorie{
+    text-align: center;
+     background-color:#FFFFFF;
+     padding: 30px;
+     border-radius: 10px;
+}
+ .calorie:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 30px;
+   border-radius: 10px;
+}
+.categories{
+    text-align: center;
+     background-color:#FFFFFF;
+     padding: 30px;
+     border-radius: 10px;
+}
+ .categories:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 30px;
+   border-radius: 10px;
+}main div{
+    font-size: 18px;
+}.center{
+    text-align: center; 
+    background-color: rgb(234, 243, 234); 
+    border-radius: 20px; margin-left: 40px; 
+    margin-right:40px ; 
+    border: 1px solid black; 
+    padding: 2px;
+}.center img{
+     height:35px;
+      width:35px;
+}.head img{
+    height: 50px;
+    width: 50px;
+}footer{
+    display: none;
+}
+ 
+
+
+
+
+@media(max-width:427px){
+     body{
+    background-image: url("img/phonebg.png");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: 10px;
+    
+}nav{
+    padding: 5px; 
+  
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #1B4332;
+   color: #FFFFFF;
+   
+}
+.head{
+    
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     
+}.navi{
+    background: #1B4332;
+    color: white;
+    display: none;
+    align-items: center;
+    border-radius: 0 0 15px 15px; 
+    
+}
+a{
+   
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 25px;
+}
+.corner{
+    font-family: 'Poppins', sans-serif;
+  
+    color: white;
+    display: none;
+    align-items: center;
+    gap: 5px;
+}.mainbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    line-height: 30px;
+    padding: 4px;
+   
+}.food{
+    text-align: center;
+    background-color:#FFFFFF;
+   padding: 5px;
+   border-radius: 10px;
+}
+   .food:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 5px;
+   border-radius: 10px;
+}.servings{
+    text-align: center;
+    background-color:#FFFFFF;
+     padding: 5px;
+     border-radius: 10px;
+     
+   
+}
+ .servings:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 5px;
+   border-radius: 10px;
+   line-height: 20px;
+    
+}
+.calorie{
+    text-align: center;
+     background-color:#FFFFFF;
+     padding: 5px;
+     border-radius: 10px;
+}
+ .calorie:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 5px;
+   border-radius: 10px;
+}
+.categories{
+    text-align: center;
+     background-color:#FFFFFF;
+     padding: 30px;
+     border-radius: 10px;
+     display: none;
+}
+ .categories:hover{
+    text-align: center;
+   background-color:#dff2e4 ;
+   padding: 30px;
+   border-radius: 10px;
+   display: none;
+}main div{
+    font-size: 20px;
+}.foot{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:20px ;
+    margin:10px;
+    font-size: 12px;
+}
+.foot a{
+    color: #0d0d0d;
+}h2{
+    font-size: 15px;
+}.food div{
+    font-size: 12px;
+}.servings div{
+    font-size: 12px;
+}.calorie div{
+    font-size: 12px;
+}h1{
+    font-size: 24px;
+}.mainbox img{
+    height: 20px;
+    width:20px ;
+}.center{
+    text-align: center; 
+    background-color: rgb(234, 243, 234); 
+    border-radius: 20px; margin-left: 40px; 
+    margin-left:15px ; 
+    margin-right:15px ;
+    margin-bottom: 0px; 
+    border: 1px solid black; 
+    padding: 0px;
+    font-size: 20px;
+}.center div{
+    font-size: 12px;
+    padding: 5px;
+}.center img{
+     height:20px;
+      width:20px;
+} .head img{
+    width:30px; 
+    height:30px;}
+
+
+
+}

@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("img/bg.png");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: 10px;
+    
+}nav{
+    padding: 5px; 
+    padding-left: 30px;  
+     padding-right: 30px; 
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1B4332;
+   color: #FFFFFF;
+}
+.head{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+     
+}.navi{
+    background: #1B4332;
+    color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 15px 15px; 
+}
+a{
+   
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 25px;
+}
+.corner{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);;
+  padding: 20px;
+  gap: 10px;
+}.container div {
+  background-color: #F4F8F5;
+  color: #344E41;
+  border: 1px solid #4c9d65;
+  border-radius:20px ;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+ 
+}.tips{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+     font-size: 20px;
+}h2{
+   color:  #1B4332;
+
+}
+.bot{
+    display: flex;
+    border: 1px solid black;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+gap :5px;
+padding: 5px;
+background-color:#e0f0e4;
+margin-left: 40px;
+margin-right: 40px;
+}
+.bot div{
+    text-align: left;
+}.tips h2{
+    font-size: 20px;
+}.tips div{
+font-size: 16px;
+}
+.foot{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.foot a{
+    color: #154b26;
+}
+h2{
+    font-size: 22px;
+}footer{
+    display: none;
+}
+
+@media(max-width:427px){
+  body{
+    background-image: url("img/phonebg.png");
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   font-family: 'Poppins', sans-serif;
+}
+header{
+    margin: 10px;
+    
+}nav{
+    padding: 5px; 
+  
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: #1B4332;
+   color: #FFFFFF;
+   
+}.head h1{
+    font-size: 20px;
+}.head img{
+    height: 30px;
+    width: 30px;
+}
+.head{
+    
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+     
+}.navi{
+    background: #1B4332;
+    color: white;
+    display: none;
+    align-items: center;
+    border-radius: 0 0 15px 15px; 
+    
+}
+a{
+   
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 25px;
+}
+.corner{
+    font-family: 'Poppins', sans-serif;
+  
+    color: white;
+    display: none;
+    align-items: center;
+    gap: 5px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);;
+  padding: 20px;
+  gap: 10px;
+}.container div {
+  background-color: #F4F8F5;
+  color: #344E41;
+  border: 1px solid #4c9d65;
+  border-radius:20px ;
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+ 
+}.tips{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 30px;
+     font-size: 20px;
+     background-color: #d9f2e1;
+     border: 1px solid black;
+     margin: 10px;
+     line-height: 20px;
+}h2{
+   color:  #1B4332;
+font-size: 18px;
+}
+.bot{
+    display: contents;
+    border: 1px solid black;
+border-radius: 20px;
+align-items: center;
+justify-content: center;
+gap :5px;
+padding: 5px;
+background-color:#e0f0e4;
+margin-left: 40px;
+margin-right: 40px;
+}
+.bot div{
+    text-align: center;
+    
+}.tips h2{
+    font-size: 16px;
+}.tips div{
+font-size: 12px;
+}.tips img{
+    height: 25px;
+    width: 25px;
+    margin-bottom:-15px;
+    
+}
+.i{
+    display: none;
+}
+.foot{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid black;
+    border-radius:20px ;
+    margin:10px;
+    font-size: 12px;
+}
+.foot a{
+    color: #154b26;
+}
+
+}
