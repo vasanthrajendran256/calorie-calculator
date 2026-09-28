@@ -210,30 +210,33 @@ margin-right: 40px;
     
 }.tips h2{
     font-size: 16px;
-}.tips div{
+  
+}.tips .h2{
+    font-size: 20px;
+      margin-top: 10px;
+}
+.tips div{
 font-size: 12px;
 }.tips img{
     height: 25px;
     width: 25px;
-    margin-bottom:-15px;
+    margin-bottom: 0px;
     
 }
-.i{
-    display: none;
-}footer{
+
+footer{
     font-size: 12px;
 }
 .foot{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
+    padding: 5px;
+    border: 2px solid rgb(249, 245, 245);
     border-radius:20px ;
     margin:10px;
-    
-   background-color: rgba(255, 255, 255, 0.654);
+    background-color: rgba(11, 29, 1, 0.654);
 }
 .foot a{
-color: rgb(25, 118, 5);
-}
+color: rgb(246, 249, 246);}
 }
