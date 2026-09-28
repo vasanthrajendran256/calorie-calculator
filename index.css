@@ -432,6 +432,10 @@ span{
       text-align: center; 
       color: #154b26;
       font-size: 12px;
+      background-color: #d8f4da;
+      border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
 }
 .foot{
     align-items: center;
