@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -43,24 +44,24 @@
             <h2><img src="img\user (2).png" alt=""  > Your Details</h2>
             
 
-            <div><label>Age</label><input  class="Age" type="number" placeholder="Age"></div>
+            <div ><label>Age</label><input id="age" class="Age" type="number" placeholder="Age " ></div>
              <div>
                 <label >Gender</label>
-                <select class="gen">
-                        <option value="">Male</option> 
-                        <option value="">Female</option>
+                <select  id="gen" class="gen">
+                        <option value="Male">Male</option> 
+                        <option value="Female">Female</option>
                 </select>
             </div>
-              <div><label>Height</label><input  class="height"  type="number" placeholder="Height"></div>
+              <div><label>Height</label><input  id="height" class="height"  type="number" placeholder="Height in cm"></div>
 
-               <div><label >Weight</label> <input class="weig" type="number" placeholder="Weight" ></div>
+               <div><label >Weight</label> <input id="weight" class="weig" type="number" placeholder="Weight in kg" ></div>
 
-               <div><label class="Activity">Activity Level </label><select  class="act" id="">
-                <option value="">No Excercise</option>
-                <option value="">Excercise Sometimes</option>
-                <option value="">Excercise Daily</option>
+               <div><label class="Activity">Activity Level </label><select  class="act" id="act">
+                <option value="No Excercise">No Excercise</option>
+                <option value="Excercise Sometimes">Excercise Sometimes</option>
+                <option value="Excercise Daily">Excercise Daily</option>
                </select></div>
-                <button><span>Calculate</span></button>
+                <button id="submit"><span>Calculate</span></button>
         </div>
         <div class="leftbox">
           
@@ -69,7 +70,7 @@
          
             <div>
             <div class="calorie"><span>Daily Calorie Need</span>
-            <h3>0000</h3>
+            <h3 id="calorie">0000</h3>
             <span>Kcal/day</span>
             </div>
         </div>
@@ -77,15 +78,15 @@
         
 <div class="weight">
          <div class="loss"><span>Lose Weight</span>
-            <h3>0000</h3>
+            <h3 id="loss">0000</h3>
         <span>Kcal/day</span></div>
 <br>
          <div class="maintain"><span>Maintain Weight</span>
-            <h3>0000</h3>
+            <h3 id="maintain">0000</h3>
         <span>Kcal/day</span></div>
 <br>
          <div class="gain"><span>Gain Weight</span>
-            <h3>0000</h3>
+            <h3 id="gain">0000</h3>
         <span>Kcal/day</span></div>
         </div>
         </div>
