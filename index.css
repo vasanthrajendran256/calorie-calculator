@@ -437,16 +437,15 @@ span{
     align-items: center;
     justify-content: center;
     text-align: center;
-    border: 1px solid black;
+    padding: 5px;
+    border: 2px solid rgb(249, 245, 245);
     border-radius:20px ;
     margin:10px;
-    
-   background-color: rgba(255, 255, 255, 0.654);
+    background-color: rgba(11, 29, 1, 0.654);
 }
 .foot a{
-color: rgb(25, 118, 5);
-
-}.center {
+color: rgb(246, 249, 246);}
+.center {
     background-color: rgba(228, 245, 227, 0.92);
     border-radius: 20px;
     padding: 3px;
