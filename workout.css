@@ -104,6 +104,8 @@ font-size: 16px;
 }
 h2{
     font-size: 22px;
+}footer{
+    display: none;
 }
 
 @media(max-width:700px){
@@ -225,7 +227,8 @@ font-size: 12px;
 }
 
 footer{
-    font-size: 12px;
+    font-size: 12px;    
+    display: contents;
 }
 .foot{
     align-items: center;
