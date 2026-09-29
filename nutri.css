@@ -122,7 +122,9 @@ a{
     height: 50px;
     width: 50px;
 }
- 
+ footer{
+    display: none;
+ }
 
 
 
@@ -286,6 +288,7 @@ color: rgb(246, 249, 246);}
     height:30px;}
 
 footer{
+    display: contents;
     font-size: 12px;
 }
 
